@@ -38,7 +38,7 @@ function Profile() {
     const handleProfileUpdate=async()=>{
         console.log(user)
         const {username,password,email,github,linkedin,profile}=user
-        if(!username || !password || !email || !github || !linkedin || !profile){
+        if(!username || !password || !email || !github || !linkedin){
             toast.warning("Enter Valid Inputs")
         }
         else{
